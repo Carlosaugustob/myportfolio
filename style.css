@@ -26,6 +26,7 @@ body {
 
 #principal {
   background-color: #333;
+  text-align: center;
 }
 
 #ajustarLinks {
@@ -33,4 +34,27 @@ body {
   height: 50px;
   text-align: center;
   padding: 55px;
+}
+/* formatação dos links */
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: purple;
+  padding: 10px 2px;
+  text-transform: uppercase;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.imagem {
+  border-radius:999px ;
+  padding: 15px;
+}
+
+#content-nome {
+  margin-top: 35px ;
 }
