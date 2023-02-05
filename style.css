@@ -6,7 +6,8 @@
   height: 100%;
   background-color: wheat ;
   color: black;
-}
+  border: solid 1px;
+  }
 
 html, body {
   border: 0;
@@ -30,6 +31,8 @@ body {
   text-align: center;
   width: 100%;
   height: 100%;
+  color: black;
+  border: 1px solid black;
 }
 
 #ajustarLinks {
@@ -82,4 +85,8 @@ a:hover{
 .coluna-footer {
   width: 100%;
   text-align: center;
+}
+
+.tecnologias {
+border: 1px solid red ;
 }

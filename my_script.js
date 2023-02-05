@@ -1,4 +1,4 @@
-function teste() {
+function carregarDados() {
     let numero = 12
     let numero2 = 66
 
@@ -7,4 +7,4 @@ function teste() {
  console.log(curupira);
 
 }
-teste()
+carregarDados()
